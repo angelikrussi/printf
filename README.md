@@ -1,5 +1,6 @@
 
-#Printf is the C language function for making formatted prints. The same
+#Printf 
+Is the C language function for making formatted prints. The same
 function is also available in PERL. This document explains how printf works
 and how to design the right format specification for any occasion. In this
 project we implement the printf function coding it from scratch.
@@ -12,10 +13,15 @@ compiled in Ubuntu 20.04 LTS using    ` gcc ', using options
 
 
 ## SYMBOLS
-. \ escape the next character \\ print a backslash
-"start or end of string \" print a double quote 'start or end a character
- constant \' print a single quote% start a format specification \% print
- a sign of percentage 2
+|SYMBOL |   PRINT  
+|--|--|
+|\ escape |   the next character 
+| \ \  | print a backslash  |
+|  "  | start or end of string |
+| \ "  | print a double quote start or end a character constant  |
+|  \ ’   |  print a single quote |
+|   %    |  start a format specification  |
+|  \ %    | print a percent sign |
 
 
 ### Authorized functions and macros
