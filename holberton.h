@@ -6,15 +6,15 @@
 #include <string.h>
 
 /**
- * struct printer- Struct printer
+ * struct s_printer- Struct printer
  * @arg: arguments pointer
  * @f: The function associated
  */
-typedef struct printer
+typedef struct  s_printer
 {/*char form of argument*/
 	char *arg;
 	int (*f)(va_list);
-} printer;
+} s_printer;
 
 void _putchar(int);
 int _printf(const char *format, ...);
