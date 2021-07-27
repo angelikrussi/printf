@@ -14,7 +14,7 @@ typedef struct printer
 {/*char form of argument*/
 	char *arg;
 	int (*f)(va_list);
-}printer;
+} printer;
 
 void _putchar(int);
 int _printf(const char *format, ...);
