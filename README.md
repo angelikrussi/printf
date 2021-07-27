@@ -1,5 +1,5 @@
 
-#Printf 
+# Printf 
 Is the C language function for making formatted prints. The same
 function is also available in PERL. This document explains how printf works
 and how to design the right format specification for any occasion. In this
