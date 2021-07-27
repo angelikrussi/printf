@@ -13,7 +13,7 @@ compiled in Ubuntu 20.04 LTS using    ` gcc ', using options
 
 
 ## SYMBOLS
-|SYMBOL |   PRINT  
+|Symbols |   Descrption  
 |--|--|
 |\ escape |   the next character 
 | \ \  | print a backslash  |
@@ -22,6 +22,23 @@ compiled in Ubuntu 20.04 LTS using    ` gcc ', using options
 |  \ ’   |  print a single quote |
 |   %    |  start a format specification  |
 |  \ %    | print a percent sign |
+
+
+## Format Specifiers
+|Function name  | Description | Format Specifier
+|--|--|--|
+|`print_c` | Prints a character |`%c`|
+|`print_s` | Prints a string |`%s`|
+|`print_c` | Prints a character |`%c`|
+|`print_p` | Prints a % |`%%`|
+|`print_i` | Prints an integer |`%d`  &  `%i`|
+|`print_o` | Prints number in base 8|`%o`|
+|`print_b` | Prints a binary, custom specifier|`%b`|
+|`print_hexLower` |Prints hexadecimal in lowercase|`%x`|
+|`print_hexUpper`|Prints hexadecimal in uppercase|`%X`|
+|`print_u`|Prints unsigned integer|`%u`|
+|`print_r`|Prints string in reverse, custom specifier|`%r`|
+|`print_R`|Prints string in rot13, custom specifier|`%R`|
 
 
 ### Authorized functions and macros
