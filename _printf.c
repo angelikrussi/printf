@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 				conta++;
 				i++;
 			}
-			else if (ctype(format, i + 1 != '\0'))
+			else if (ctype(format, i + 1) != NULL)
 			{
 				conta += ctype(format, i + 1)(listing);
 				i++;
