@@ -1,0 +1,42 @@
+
+NAME:
+
+_PRINTF
+
+SYNOPSIS
+
+int _printf(const char *format, ...);
+
+DESCRIPTION
+
+_printf is the C language function to do formatted printing. The same function is also available in
+PERL. This paper explains how printf works, and how to design the proper formatting specification for
+any occasion.
+
+EXAMPLES
+
+*  _printf("The value is: %d.\n", counter);
+
+*  int num = 12;
+   int num2 = 12345;
+  _printf("%d\n",num2);
+  _printf("%5d\n",num);
+
+output:
+	12345
+	   12
+
+RETURN VALUE
+
+After a successful return, these functions return the number of characters printed
+(excluding the null byte used to terminate the output to strings).
+
+AUTHORS
+
+Angelica Estefania Russi Rodriguez.
+Paola Andrea Garcia Altamirano.
+
+July 27, 2021.
+
+
+
