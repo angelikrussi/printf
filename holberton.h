@@ -21,7 +21,7 @@ int _printf(const char *format, ...);
 int pr_char(va_list listing);
 int pr_string(va_list listing);
 int pr_int(va_list listing);
-int (*_ctype(const char *argv, int argc))(va_list);
+int (*ctype(const char *argv, int argc))(va_list);
 int counter(unsigned int n);
 
 #endif /* HOLBERTON_H */
