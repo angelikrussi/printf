@@ -24,23 +24,23 @@ int _printf(const char *format, ...)
 				conta++;
 				i++;
 			}
-			else if (_ctype(format, i + 1 != NULL)
-				{
-					conta += _ctype(format, i + 1)(listing);
-					i++; /* increases one by one */
-				}
-				else
-				{
-					_putchar(format[i]);
-					count++;
-				}
-				else
-				{
-					_putchar(format[i]);
-					count++;
-				}
-				}
-
-			va_end(listing);
-			return (conta);
+			else if (ctype(format, i + 1 != '\0'))
+			{
+				conta += ctype(format, i + 1)(listing);
+				i++;
+			}
+			else
+			{
+				_putchar(format[i]);
+				conta++;
+			}
+		}
+		else
+		{
+			_putchar(format[i]);
+			conta++;
+		}
+	}
+	va_end(listing);
+	return (conta);
 }
