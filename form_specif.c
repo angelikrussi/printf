@@ -35,7 +35,7 @@ int pr_string(va_list listing)
 
 	str = va_arg(listing, char*); /*character type*/
 
-	if (str == null)
+	if (str == NULL)
 	{
 		; /*null*/
 	}
@@ -67,7 +67,7 @@ int counter(unsigned int n)
 	int cont = 0;
 
 	/* two positive int variables are declared */
-	unsigned int = x, y;
+	unsigned int x, y;
 
 	/* if n (variable received by parameter) is different than 0 */
 	if (n != 0)
@@ -109,25 +109,25 @@ int pr_int(va_list listing)
 	int a, b = 0;
 	unsigned int i;
 
-	a = va_arg(listing, int)
+	a = va_arg(listing, int);
 
 	if (a < 0)
 	{
 		putchar ('-');
 		b = 1;
 		i = a * (-1);
-
-		else
-		{
-			x = a;
-		}
-
-		if (i > 9)
-		{
-			return (b + counter(i));
-		}
-
-		_putchar(x + '0');
-		return (1 + b);
-
 	}
+	else
+	{
+		i = a;
+	}
+	
+	if (i > 9)
+	{
+		return (b + counter(i));
+	}
+	
+	_putchar(i + '0');
+	return (1 + b);
+	
+}
