@@ -37,7 +37,7 @@ int pr_string(va_list listing)
 
 	if (str == NULL)
 	{
-		; /*null*/
+		str = "(null)";
 	}
 
 /* for i equal to 0; while s in position i is*/
