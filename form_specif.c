@@ -113,7 +113,7 @@ int pr_int(va_list listing)
 
 	if (a < 0)
 	{
-		putchar ('-');
+		_putchar('-');
 		b = 1;
 		i = a * (-1);
 	}
@@ -121,13 +121,13 @@ int pr_int(va_list listing)
 	{
 		i = a;
 	}
-	
+
 	if (i > 9)
 	{
 		return (b + counter(i));
 	}
-	
+
 	_putchar(i + '0');
 	return (1 + b);
-	
+
 }
