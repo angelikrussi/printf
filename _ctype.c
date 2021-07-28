@@ -8,7 +8,7 @@
 
 int (*ctype(const char *argv, int argc))(va_list)
 {
-	/* argument list of struct_format structure */
+	/* argument list of format structure */
 	s_printer printers[] = {
 		/* first column ("") is the format and the second*/
 		/* is the list of functions */
