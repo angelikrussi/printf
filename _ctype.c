@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
- * *_ctype - struct of format types.
+ * *ctype - struct of format types.
  * @argv: bring the format arguments.
  * @argc: position of each argument.
  * Return: 0.
  */
 
-int (*_ctype(const char *argv, int argc))(va_list)
+int (*ctype(const char *argv, int argc))(va_list)
 {
 	/* argument list of struct_format structure */
 	s_printer printers[] = {
