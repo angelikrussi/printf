@@ -62,3 +62,7 @@ containing all files of tests, including    ` main '    functions) - Our main
 files include the main header file ( ` holberton.h '): ` #include holberton.h `
 - you may want to see on the flag gcc    ` -Wno format `    when tested with
 ` _printf `
+
+## Flowchart Function _Printf
+
+![]{https://app.diagrams.net/#Hangelikrussi%2Fprintf%2Fmain%2FUntitled%20Diagram.drawio}
