@@ -12,7 +12,7 @@ compiled in Ubuntu 20.04 LTS using    ` gcc ', using options
 ` -Wall -Werror -Wextra -pedantic -std = gnu89
 
 
-## SYMBOLS
+## Symbols
 |Symbols |   Descrption  
 |--|--|
 |\ escape |   the next character 
