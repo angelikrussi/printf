@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- *pr_char - print type char characters
- *@listing: argument list
- *Return: Void
+ *pr_char - print type char characters.
+ *@listing: argument list.
+ *Return: Void.
  */
 
 int pr_char(va_list listing)
