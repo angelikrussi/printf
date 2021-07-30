@@ -19,14 +19,14 @@ int (*ctype(const char *argv, int argc))(va_list)
 		{NULL, NULL},
 	};
 
-/* int i is a counter */
+/* int k is a counter */
 	int k;
-	/* for i that starts at 0; until list in position i is */
-	/* part of args and be other than null; i increases one by one */
+	/* for k that starts at 0; until list in position k is */
+	/* part of args and be other than null; k increases one by one */
 
 	for (k = 0; printers[k].arg != NULL; k++)
 	{
-		/* for i that starts at 0; until list in position i is*/
+		/* for k that starts at 0; until list in position k is*/
 		/* part of args and be other than null; i increases one by one*/
 
 		if (printers[k].arg[0] == argv[argc])
