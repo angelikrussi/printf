@@ -27,7 +27,7 @@ int (*ctype(const char *argv, int argc))(va_list)
 	for (k = 0; printers[k].arg != NULL; k++)
 	{
 		/* for k that starts at 0; until list in position k is*/
-		/* part of args and be other than null; i increases one by one*/
+		/* part of args and be other than null; k increases one by one*/
 
 		if (printers[k].arg[0] == argv[argc])
 		{
