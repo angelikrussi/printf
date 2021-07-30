@@ -31,7 +31,7 @@ int (*ctype(const char *argv, int argc))(va_list)
 
 		if (printers[k].arg[0] == argv[argc])
 		{
-			/* returns list in position i that is part of func */
+			/* returns list in position k that is part of func */
 			/*  which is the list of  functions */
 			return (printers[k].f);
 		}
